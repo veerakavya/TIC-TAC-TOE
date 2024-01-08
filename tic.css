@@ -1,0 +1,133 @@
+body{
+	height: 100vh;
+	background-color: #8aaba3;
+}
+h1 {
+	color: black;
+	margin-bottom: -5px;
+}
+p {
+	margin-bottom: -10px;
+}
+.ui {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.row {
+	display: flex;
+	
+}
+.cell {
+	border: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	color: blue;
+	
+}
+.cell:active {
+	outline: none;
+}
+/* 3*3 Grid */
+
+
+#b1 {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	background-color: rgb(44, 149, 65);
+	
+}
+
+#b2 {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+
+#b3 {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+
+#b4 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+	
+#b5 {
+	border: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+
+#b6 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+
+#b7 {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+
+#b8 {
+	border-top: 1px solid black;
+	border-right: 1px solid black ;
+	border-left: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+
+#b9 {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	background-color: rgb(44, 149, 65);
+}
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid black;
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: whitesmoke;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	color: black;
+	font-size: 20px;
+}
+
+/* Main Container */
+#main {
+	text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+	font-family: Verdana,Geneva,
+					Tahoma, sans-serif;
+	color: rgb(7, 7, 7);
+}
